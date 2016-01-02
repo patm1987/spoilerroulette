@@ -9,3 +9,6 @@ INSERT INTO spoilers.spoilers (title, body, factual) VALUES ('C-3P0''s Arm', 'C-
 INSERT INTO spoilers.spoilers (title, body, factual) VALUES ('BB-D2', 'Although R2 appears to be disabled midway through the movie, he has actually been transferred into BB-8''s body to aid in the recovery of Luke''s location.', 0);
 INSERT INTO spoilers.spoilers (title, body, factual) VALUES ('Poe''s Untimely Death', 'Despite appearing to die in a Tie Fighter crash, Poe actually survives to save the day two more times. AKA: the soap opera death!', 1);
 INSERT INTO spoilers.spoilers (title, body, factual) VALUES ('Stay for the Credits', 'If you stay after the credits, a mysterious figure is seen rescuing Han Solo from his apparent death.', 0);
+INSERT INTO spoilers.spoilers (title, body, factual) VALUES ('Sleepy Finn', 'An egg after the credits seems to show Snoke activating Finn as a sleeper agent.', 0);
+INSERT INTO spoilers.spoilers (title, body, factual) VALUES ('Han''s Divorce', 'For reasons left to the imagination, Han and Leia are divorced prior to the events of this movie.', 1);
+INSERT INTO spoilers.spoilers (title, body, factual) VALUES ('Leia''s Death', 'Leia is killed trying to protect Rey in a scene appearing to poorly mimic Obi Wan''s death in A New Hope...', 0);
