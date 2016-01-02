@@ -1,8 +1,46 @@
+/*
+ * colors:
+ *  a) 166AE6
+ *  b) DBE7F8
+ *  c) 5E95E6
+ *  d) 0546A6
+ *  e) 02265A
+ */
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50pt;
+    font: 12pt "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: #DBE7F8;
+    background: #02265A;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
+}
+
+h1 {
+    background: #5E95E6;
+    border: 5pt solid #5E95E6;
+    border-radius: 5pt;
+    text-align: center;
+    font-style: italic;
+}
+
+#spoiler_intro {
+    font-style: italic;
+    font-size: 10pt;
+}
+
+#spoiler_title {
+    font-size: 18pt;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+}
+
+#spoiler_block {
+    border: 5pt solid #0546A6;
+    border-radius: 5pt;
+    color: #DBE7F8;
+    background: #0546A6;
 }

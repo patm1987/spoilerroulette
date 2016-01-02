@@ -2,6 +2,9 @@ extends layout
 
 block content
     h1= title
-    p Did you know?
-    p #{spoilerTitle}
-    p #{spoiler}
+    #spoiler_block
+        #spoiler_intro
+            p Did you know...
+        #spoiler_title
+            center #{spoilerTitle}
+        center #{spoiler}
