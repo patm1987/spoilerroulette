@@ -19,10 +19,10 @@ SpoilerProvider.prototype.getSpoiler = function(spoilerCB) {
 		'SELECT * FROM spoilers ORDER BY RAND() LIMIT 1',
 		function(err, rows, fields) {
 			if (err) {
-				spoilerCB('Error!', 'Error: ' + err);
+				spoilerCB('Error!', 'Error: ' + err, false);
 			}
 			else {
-				spoilerCB(rows[0].title, rows[0].body);
+				spoilerCB(rows[0].title, rows[0].body, rows[0].factual);
 			}
 		});
 	sqlConnection.end();
