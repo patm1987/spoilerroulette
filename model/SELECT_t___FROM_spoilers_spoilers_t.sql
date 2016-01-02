@@ -1,0 +1,2 @@
+INSERT INTO spoilers.spoilers (title, body, factual) VALUES ('Jar Jar''s Past', 'Jar Jar was the original Knight of Ren.', 0);
+INSERT INTO spoilers.spoilers (title, body, factual) VALUES ('It''s a Trap', 'Admiral Ackbar dies after escaping the First Order''s armada. He did not realize that he was, in fact, falling into a trap!', 0);
